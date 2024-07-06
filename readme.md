@@ -1,4 +1,4 @@
-# Leitor NFC com ESP32 e PN5180
+# Leitor NFC ISO 15693 com ESP32 e PN5180
 
 ## Descrição
 Este projeto utiliza um ESP32 juntamente com o módulo PN5180 para leitura de tags NFC ISO 15693. O código inicializa o leitor, configura a comunicação SPI e lê o ID das tags NFC detectadas. A cada tag detectada, o ID é impresso no monitor serial.
