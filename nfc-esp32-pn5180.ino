@@ -11,9 +11,6 @@ PN5180ISO15693 nfc(nssPin, busyPin, resetPin);
 void setup() {
   // Inicializa a comunicação serial
   Serial.begin(115200);
-  
-  // Inicializa a comunicação SPI
-  SPI.begin();
 
   // Mensagem de inicialização
   Serial.println("Inicializando o leitor...");
